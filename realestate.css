@@ -1,0 +1,120 @@
+.ul1{
+    background-color: orangered;
+    display: flex;
+    direction: row;
+    justify-content: end;
+    color: aliceblue;
+}
+li{
+    margin-right: 30px;
+    justify-content: space-between;
+    list-style: none;
+}
+.div1{
+    display: flex;
+    direction: row;
+    justify-content:space-between;
+    color: aliceblue;
+    background-color: orangered;
+
+}
+#img1{
+    width: 1900px;
+    height: 600px ;
+}
+.divContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#aboutus{
+    font-style: oblique;
+    font-size:20px;
+    color: blue;
+    background-color: aliceblue;
+}
+body{
+    background-image: url(https://imgs.search.brave.com/65RSWMDQMC6AF_MYZ0mVDmeZt_5Go4SRSdJt9I8PMXE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9v/bGQtYmxhY2stYmFj/a2dyb3VuZC1ncnVu/Z2UtdGV4dHVyZS1k/YXJrLXdhbGxwYXBl/ci1ibGFja2JvYXJk/LWNoYWxrYm9hcmQt/cm9vbS13YWxsXzEy/NTgtMjgzMTMuanBn/P3NpemU9NjI2JmV4/dD1qcGc);
+}
+
+
+
+.hpl{
+    display: flex;
+    direction: row;
+}
+#aboutus1{
+    color: aliceblue;
+}
+#realestate{
+    font-style:italic;
+}
+
+.div21{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div22{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.div23{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.div24{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.div25{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.div26{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+h3{
+    color: aliceblue;
+    font-style: oblique;
+}
+#available{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: initial;
+    color: aliceblue;
+}
+.div2{
+    display: flex;
+    direction: row;
+    justify-content:space-between;
+
+}
+.ul{
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+img{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.weathertab{
+    border: 5px solid red;
+}

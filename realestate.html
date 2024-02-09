@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app = 'realestate' lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRR Real Estate</title>
+    <link rel="stylesheet" href="realestate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <script defer src = 'realestate.module.js' ></script>
+    <script src = "core/core.module.js" defer ></script>
+    <script defer src = './Header/header.module.js'></script>
+    <script defer src = './Header/header.component.js'></script>
+    <script defer src='./container/container.module.js' ></script>
+    <script defer src = './container/container.component.js' ></script>
+    <script defer src = './properties/properties.module.js' ></script>
+    <script defer src = './properties/properties.component.js'></script>
+    <script defer src = './login/login.module.js'></script>
+    <script defer src="./login/login.component.js"></script>
+    <script defer src = '/core/services/core.service.js' ></script>
+    <script defer src = './app.config.js'></script>
+    <script defer src ='./core/services/weather.service.js'></script>
+    <script defer src="./weathertab/weathertab.module.js"></script>
+    <script defer src="./weathertab/weathertab.component.js"></script>
+</head>
+<body>
+
+    <header></header>
+    <ng-view></ng-view>
+</body>
+</html>
